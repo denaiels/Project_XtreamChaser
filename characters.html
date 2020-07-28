@@ -1,0 +1,172 @@
+<!--
+Albert Lilian Thamson / 2201754412
+Daniel Santoso / 2201756506
+Kevin Chan / 2201751530
+Rio Nagano / 2201767232
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta name="keywords" content="fighting game, xtream chaser, beta test">
+	<meta name="author" content="Albert Daniel Kevin Rio">
+
+	<title>Xtream Chaser | Beta Test Open!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script
+		src="http://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	    crossorigin="anonymous"></script>
+	<!-- <script src="Jquery/jquery_3_5_1.js"></script> -->
+	<script src="js/main.js"></script>
+	
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<div id="menu">
+						<div id="dropBtn">
+							<img src="assets/menu.png" alt="drop">
+						</div>
+					</div>
+					<div id="logo">
+						<div id="mylogo">
+							<img src="assets/logo.png" alt="logo">
+						</div>
+					</div>
+					<div id="pregister">
+						<div id="mybutton">
+							<p class="preg"><a href="preregister.html">Pre-register BETA</a></p>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div id="menuContent">
+			<a href="index.html">Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="characters.html">Characters</a>
+			<a href="lore.html">Lore</a>
+			<a href="preregister.html" class="prebut">Pre-Register Beta</a>
+	    </div>
+	</header>
+
+	<section id="characters">
+		<div class="container">
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/reaper.jpg">
+				</div>
+				<div class="desc">
+					<h1>Reaper</h1>
+					<p>The god of death who came from Exurbia to conquer the universe.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/eurivia.jpg">
+				</div>
+				<div class="desc">
+					<h1>Eurivia</h1>
+					<p>Mechanical maiden searching for her master after the destruction of the universe.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/silantius.jpg">
+				</div>
+				<div class="desc">
+					<h1>Silantius</h1>
+					<p>Master marksman came from Planet 162 to seek revenge on Reaper who has killed his lover.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/sin.png">
+				</div>
+				<div class="desc">
+					<h1>Sin</h1>
+					<p>The last successor of Blademaster from the Sin Family.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/ka.jpg">
+				</div>
+				<div class="desc">
+					<h1>Ka</h1>
+					<p>Ancient Demon, the guardian of the Xtreme Universe.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/katana.jpg">
+				</div>
+				<div class="desc">
+					<h1>Katana</h1>
+					<p>The master of the Most Ancient and Powerful Sword in the universe, The KATA</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/ryujin.jpg">
+				</div>
+				<div class="desc">
+					<h1>Ryujin</h1>
+					<p>The last survivor from Earth.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/quincy.jpg">
+				</div>
+				<div class="desc">
+					<h1>Quincy</h1>
+					<p>All Mighty Powerful Magician, the only possessor of the Wardenforce.</p>
+				</div>
+			</div>
+			<div class="char">
+				<div class="figure">
+					<img src="assets/characters/destroyer.jpg">
+				</div>
+				<div class="desc">
+					<h1>The Destroyer</h1>
+					<p>He only knows one word, "DESTROY"</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div id="footer">
+			<div class="leftFoot">
+				<a href="https://instagram.com" target="_blank"><img src="assets/insta.png" alt="instagram"></a>
+	    		<p>@xtreamchaser</p>
+	    		<a href="https://twitter.com" target="_blank"><img src="assets/twitter.png" alt="twitter"></a>
+	    		<p>@xtreamchaserofficial</p>
+	    		<a href="https://facebook.com" target="_blank"><img src="assets/fb.jpg" alt="facebook"></a>
+	    		<p>Xtream Chaser Official</p>
+			</div>
+			<div class="rightFoot">
+				<p>Xtream Chaser Copyright © 2020</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+<script>
+
+    $("#dropBtn").click(function(){
+        if($("#menuContent").is(":visible")){
+            $("#menuContent").css('display', 'none')
+        }else{
+            $("#menuContent").css('display', 'block')
+        }
+    })
+
+</script>

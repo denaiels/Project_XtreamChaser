@@ -1,0 +1,111 @@
+<!--
+Albert Lilian Thamson / 2201754412
+Daniel Santoso / 2201756506
+Kevin / 2201751530
+Rio Nagano / 2201767232
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta name="keywords" content="fighting game, xtream chaser, beta test">
+	<meta name="author" content="Albert Daniel Kevin Rio">
+
+	<title>Xtream Chaser | Beta Test Open!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script
+		src="http://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	    crossorigin="anonymous"></script>
+	<!-- <script src="Jquery/jquery_3_5_1.js"></script> -->
+	<script src="js/main.js"></script>
+	
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div class="container">
+				<nav>
+					<div id="menu">
+						<div id="dropBtn">
+							<img src="assets/menu.png" alt="drop">
+						</div>
+					</div>
+					<div id="logo">
+						<div id="mylogo">
+							<img src="assets/logo.png" alt="logo">
+						</div>
+					</div>
+					<div id="pregister">
+						<div id="mybutton">
+							<p class="preg"><a href="preregister.html">Pre-register BETA</a></p>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div id="menuContent">
+			<a href="index.html">Home</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="characters.html">Characters</a>
+			<a href="lore.html">Lore</a>
+			<a href="preregister.html" class="prebut">Pre-Register Beta</a>
+	    </div>
+	</header>
+
+	<section id="showcase">
+		<div class="container2">
+			<div class="slider-outer">
+				<img src="assets/arrow-left.png" class="prev" alt="Prev">
+				<div class="slider-inner">
+					<img src="assets/overview1.png" class="active">
+					<img src="assets/overview2.png">
+					<img src="assets/overview3.png">
+				</div>
+				<img src="assets/arrow-right.png" class="next" alt="Next">
+			</div>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<img src="assets/destroyer.jpg">
+				<p>Pre-register for our beta test and get The Destroyer for FREE!</p>
+			</div>
+			<div class="box">
+				<img src="assets/costumes.jpg">
+				<p>All beta testers will get exclusive costumes or selected characters!</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div id="footer">
+			<div class="leftFoot">
+				<a href="https://instagram.com" target="_blank"><img src="assets/insta.png" alt="instagram"></a>
+	    		<p>@xtreamchaser</p>
+	    		<a href="https://twitter.com" target="_blank"><img src="assets/twitter.png" alt="twitter"></a>
+	    		<p>@xtreamchaserofficial</p>
+	    		<a href="https://facebook.com" target="_blank"><img src="assets/fb.jpg" alt="facebook"></a>
+	    		<p>Xtream Chaser Official</p>
+			</div>
+			<div class="rightFoot">
+				<p>Xtream Chaser Copyright © 2020</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+<script>
+    $("#dropBtn").click(function(){
+        if($("#menuContent").is(":visible")){
+            $("#menuContent").css('display', 'none')
+        }else{
+            $("#menuContent").css('display', 'block')
+        }
+    })
+</script>
