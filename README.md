@@ -20,4 +20,8 @@ In case you don't want to open the HTML by yourself, I have provided screenshots
 
 | Part | Screenshot |
 | ----------- | ----------- |
-| Homepage |  |
+| Homepage | ![](/ss/homepage.png) |
+| Gallery | ![](/ss/gallery.jpg) |
+| Characters | ![](/ss/characters.png) |
+| Lore | ![](/ss/lore.png) |
+| Pre-Register Beta | ![](/ss/preregister.png) |
